@@ -4,7 +4,7 @@
 import java.util.*; 
 import java.lang.*; 
 import java.io.*; 
-  
+  //code
 public class Kruskal 
 { 
     // A class to represent a graph edge 
