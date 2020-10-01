@@ -15,7 +15,7 @@ class HeapExtract {
             }
             aa.close();
 
-            System.out.println("Heap Extract");
+            System.out.println("Heap Contents");
             heapExtract(a,n);
       }  
 
@@ -26,7 +26,7 @@ class HeapExtract {
                   HeapSort.heapify(a, n, i);
 
             if(n<1)     {
-                  System.out.println("Underflow");
+                  System.out.println("Heap is empty");
                   return;
             }
 
